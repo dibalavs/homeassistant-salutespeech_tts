@@ -139,7 +139,6 @@ async def _text_to_speech(hass:HomeAssistant,
         _LOGGER.error("Timeout for SaluteSpeech TTS API requst")
         return (None, None)
 
-    _LOGGER.error(f"{SUPPORT_FORMATS_TO_FFMPEG[format]} - {len(data)}")
     return (SUPPORT_FORMATS_TO_FFMPEG[format], data)
 
 
@@ -204,7 +203,6 @@ async def async_setup_entry(
     async_add_entities: AddConfigEntryEntitiesCallback,
 ) -> None:
     """Set up SaluteSpeech speech as entity."""
-    _LOGGER.error(f"async_setup_entry {config_entry}")
     async_add_entities([SaluteSpeechEntity(hass, config_entry)])
 
 

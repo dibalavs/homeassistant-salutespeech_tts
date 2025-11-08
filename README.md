@@ -40,9 +40,10 @@ tts:
 
 ### GUI Configuration (Config Flow)
 
-- Navigate to (TODO)
-- select "integrations"
-- Search SaluteSpeechTTS
+- Go to  Settings > Devices & Services.
+- In the bottom right corner, select the  Add Integration button.
+- From the list, select Salute Speech.
+- Follow the instructions on screen to complete the setup.
 
 ## Usage Examples
 
