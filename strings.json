@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+            "api_key": "API key",
+            "language": "[%key:common::config_flow::data::language%]",
+            "format": "Format",
+            "samplerate": "Samplerate",
+            "voice":"Voice",
+            "validate_ssl":"Validate SSL"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_service%]"
+    }
+  }
+}

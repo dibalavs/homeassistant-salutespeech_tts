@@ -1,0 +1,10 @@
+{
+  "domain": "salutespeech_tts",
+  "name": "SaluteSpeech TTS",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/dibalavs/homeassistant-salutespeech_tts",
+  "iot_class": "cloud_push",
+  "loggers": ["salutespeech_tts"],
+  "version": "1.0.0"
+}
